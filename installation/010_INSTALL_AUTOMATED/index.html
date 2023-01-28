@@ -482,6 +482,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../../features/MODEL_MERGING/" class="md-nav__link">
+        Model Merging
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../features/NSFW/" class="md-nav__link">
         The NSFW Checker
       </a>
@@ -900,6 +914,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../070_INSTALL_XFORMERS/" class="md-nav__link">
+        Installing xFormers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../INSTALL_AUTOMATED/" class="md-nav__link">
         Installing with the Automated Installer
       </a>
@@ -931,18 +959,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_5_9">
+        <label class="md-nav__link" for="__nav_5_10">
           Developers documentation
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Developers documentation" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_9">
+        <label class="md-nav__title" for="__nav_5_10">
           <span class="md-nav__icon md-icon"></span>
           Developers documentation
         </label>
@@ -978,18 +1006,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_5_10">
+        <label class="md-nav__link" for="__nav_5_11">
           Deprecated documentation
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Deprecated documentation" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_10">
+        <label class="md-nav__title" for="__nav_5_11">
           <span class="md-nav__icon md-icon"></span>
           Deprecated documentation
         </label>
@@ -1239,7 +1267,7 @@ find python, then open the Python installer again and choose
 "Modify" existing installation.</p>
 </li>
 <li>
-<p>Installation requires an up to date version of the Microsoft Visual C libraries. Please install the 2015-2022 libraries available here: <a href="https://learn.microsoft.com/en-us/cpp/windows/deploying-native-desktop-applications-visual-cpp?view=msvc-170">https://learn.microsoft.com/en-us/cpp/windows/deploying-native-desktop-applications-visual-cpp?view=msvc-170</a></p>
+<p>Installation requires an up to date version of the Microsoft Visual C libraries. Please install the 2015-2022 libraries available here: <a href="https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170">https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170</a></p>
 </li>
 </ul>
 </div>
@@ -1298,19 +1326,20 @@ Terminal, including InvokeAI. This package is provided directly by Apple.</p>
     <a href="https://github.com/invoke-ai/InvokeAI/releases/latest">latest release</a>, and
     look for a series of files named:</p>
 <ul>
-<li><a href="https://github.com/invoke-ai/InvokeAI/files/10254728/InvokeAI-installer-2.2.4-p5-mac.zip">InvokeAI-installer-2.2.4-p5-mac.zip</a></li>
-<li><a href="https://github.com/invoke-ai/InvokeAI/files/10254729/InvokeAI-installer-2.2.4-p5-windows.zip">InvokeAI-installer-2.2.4-p5-windows.zip</a></li>
-<li><a href="https://github.com/invoke-ai/InvokeAI/files/10254727/InvokeAI-installer-2.2.4-p5-linux.zip">InvokeAI-installer-2.2.4-p5-linux.zip</a></li>
+<li>InvokeAI-installer-2.X.X-mac.zip</li>
+<li>InvokeAI-installer-2.X.X-windows.zip</li>
+<li>InvokeAI-installer-2.X.X-linux.zip</li>
 </ul>
-<p>Download the one that is appropriate for your operating system.</p>
+<p>(Where 2.X.X is the current release number).
+Download the one that is appropriate for your operating system.</p>
 </li>
 <li>
 <p>Unpack the zip file into a convenient directory. This will create a new
     directory named "InvokeAI-Installer". This example shows how this would look
     using the <code>unzip</code> command-line tool, but you may use any graphical or
     command-line Zip extractor:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>C:\Documents\Linco&gt; unzip InvokeAI-installer-2.2.4-windows.zip
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Archive:  C: \Linco\Downloads\InvokeAI-installer-2.2.4-windows.zip
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>C:\Documents\Linco&gt; unzip InvokeAI-installer-2.X.X-windows.zip
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Archive:  C: \Linco\Downloads\InvokeAI-installer-2.X.X-windows.zip
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>creating: InvokeAI-Installer\
 <a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>inflating: InvokeAI-Installer\install.bat
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>inflating: InvokeAI-Installer\readme.txt
@@ -1486,17 +1515,21 @@ bottom. Alternatively, you can browse "branches" and "tags" at the top of the
 big code directory on the InvokeAI welcome page. When you find the version you
 want to install, go to the green "&lt;&gt; Code" button at the top, and copy the
 "Download ZIP" link.</p>
-<p>Now run <code>update.sh</code> (or <code>update.bat</code>) with the URL of the desired InvokeAI
+<p>Now run <code>update.sh</code> (or <code>update.bat</code>) with the version number of the desired InvokeAI
 version as its argument. For example, this will install the old 2.2.0 release.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>update.sh https://github.com/invoke-ai/InvokeAI/archive/refs/tags/v2.2.0.zip
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>update.sh v2.2.0
 </code></pre></div>
+<p>You can get the list of version numbers by going to the <a href="https://github.com/invoke-ai/InvokeAI/releases">releases
+page</a> or by browsing
+the (Tags)[<a href="https://github.com/invoke-ai/InvokeAI/tags">https://github.com/invoke-ai/InvokeAI/tags</a>] list from the
+Code section of the main github page.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 18, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 12, 2023</span>
       
         <br>
         Created:
